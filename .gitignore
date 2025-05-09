@@ -1,0 +1,37 @@
+# Dependências
+node_modules/
+# Build de frontend/backend
+dist/
+build/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Arquivos de ambiente e segredos
+.env
+.env.*
+# Diretórios do sistema/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+# Arquivos de lock antigos
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Arquivos de cache e temporários
+.cache/
+*.log
+# Arquivos de configuração pessoais
+*.local
+# Arquivos de output do Vercel/Netlify
+.vercel/
+.netlify/
+# Testes e cobertura
+coverage/
+# Outros arquivos que você não quer versionar
+*.swp
+*.tmp

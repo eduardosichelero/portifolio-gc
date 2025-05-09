@@ -1,0 +1,14 @@
+{
+ "name": "portifolio-gc",
+ "version": "1.0.0",
+ "type": "module",
+ "description": "API serverless para goals e certificados do portfólio",
+ "main": "api/index.js",
+ "scripts": {
+  "start": "node api/index.js"
+ },
+ "dependencies": {
+  "cors": "^2.8.5",
+  "express": "^5.1.0"
+ }
+}
